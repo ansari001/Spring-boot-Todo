@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: todo
+
+  data:
+    mongodb:
+      uri: enter mongoDB Atlas connection string
+      database: tododb
+  security:
+    jwt:
+      secret-key: enter your secret key
+      expiration: 300000
